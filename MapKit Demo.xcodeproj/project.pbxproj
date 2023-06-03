@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79B378E82A2BC8CD00D475E7 /* CLLocation+LookUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B378E72A2BC8CD00D475E7 /* CLLocation+LookUp.swift */; };
+		79B378EA2A2BCB0E00D475E7 /* CLPlaceMark+StringValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B378E92A2BCB0D00D475E7 /* CLPlaceMark+StringValue.swift */; };
 		79CFFCBF2A2BBE9400E1E58A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFFCBE2A2BBE9400E1E58A /* AppDelegate.swift */; };
 		79CFFCC12A2BBE9400E1E58A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFFCC02A2BBE9400E1E58A /* SceneDelegate.swift */; };
 		79CFFCC32A2BBE9400E1E58A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CFFCC22A2BBE9400E1E58A /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79B378E72A2BC8CD00D475E7 /* CLLocation+LookUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+LookUp.swift"; sourceTree = "<group>"; };
+		79B378E92A2BCB0D00D475E7 /* CLPlaceMark+StringValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLPlaceMark+StringValue.swift"; sourceTree = "<group>"; };
 		79CFFCBB2A2BBE9300E1E58A /* MapKit Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapKit Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CFFCBE2A2BBE9400E1E58A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79CFFCC02A2BBE9400E1E58A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				79CFFCC72A2BBE9800E1E58A /* Assets.xcassets */,
 				79CFFCC92A2BBE9800E1E58A /* LaunchScreen.storyboard */,
 				79CFFCCC2A2BBE9800E1E58A /* Info.plist */,
+				79B378E72A2BC8CD00D475E7 /* CLLocation+LookUp.swift */,
+				79B378E92A2BCB0D00D475E7 /* CLPlaceMark+StringValue.swift */,
 			);
 			path = "MapKit Demo";
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				79CFFCC32A2BBE9400E1E58A /* ViewController.swift in Sources */,
 				79CFFCBF2A2BBE9400E1E58A /* AppDelegate.swift in Sources */,
+				79B378EA2A2BCB0E00D475E7 /* CLPlaceMark+StringValue.swift in Sources */,
 				79CFFCC12A2BBE9400E1E58A /* SceneDelegate.swift in Sources */,
+				79B378E82A2BC8CD00D475E7 /* CLLocation+LookUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
